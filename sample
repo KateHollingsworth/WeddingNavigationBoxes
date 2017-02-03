@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+divs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a2 {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+a2:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a2 {
+    width: calc(33% - 3.5px);
+  }
+  
+  a2:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  a2:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
+
+a2:hover img {
+  transform: scale(1.15);
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+
+.p a2 {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
+  text-decoration: underline;
+  color: blue;
+}
+
+.p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
+
+</style>
+</head>
+<body>
+<divs>
+  <a2 href="http://kateandchristian.love/wedding-party/">
+   <a href="http://kateandchristian.love/wedding-party/" > <figure>
+<img src="http://kateandchristian.love/wp-content/uploads/2016/10/1147788_10151980331374365_1162640963_o.jpg" alt="">
+      <figcaption>
+        Wedding Party
+    </figcaption>
+    </figure></a>
+  </a2>
+  <a2 href="http://kateandchristian.love/hotel-details">
+    <figure>
+      <img src="http://kateandchristian.love/wp-content/uploads/2016/10/10668910_3731461357505_198715280663682578_o.jpg" alt="">
+      <figcaption>
+        Hotel Information
+      </figcaption>
+    </figure>
+  </a2>
+  <a2 href="http://kateandchristian.love/wedding-and-reception/">
+    <figure>
+      <img src="http://kateandchristian.love/wp-content/uploads/2016/10/BVI-2010-082-1.jpg" alt="">
+      <figcaption>
+        Wedding Celebration Details
+      </figcaption>
+    </figure>
+  </a2>
+  <a2 href="http://kateandchristian.love/sorry-not-ready-yet/">
+    <figure>
+      <img src="http://kateandchristian.love/wp-content/uploads/2016/11/FB_IMG_1471044367069-bandw.jpg" alt="">
+      <figcaption>
+        Registry Information
+      </figcaption>
+    </figure>
+  </a2>
+  <a2
+  href="http://kateandchristian.love/fun-things-to-do-in-new-orleans">
+    <figure>
+      <img src="http://kateandchristian.love/wp-content/uploads/2016/11/FB_IMG_1471045970330-bandw.jpg" alt="">
+      <figcaption>
+        Fun things to do in New Orleans
+      </figcaption>
+    </figure>
+  </a2>
+  <a2 href="http://kateandchristian.love/sorry-not-ready-yet/">
+    <figure>
+      <img src="http://kateandchristian.love/wp-content/uploads/2016/11/FB_IMG_1471044256623-BandW.jpg" alt="">
+       <figcaption>
+        Honeymoon
+      </figcaption>
+    </figure>
+  </a2>
+</divs>
+</body>
+</html>
